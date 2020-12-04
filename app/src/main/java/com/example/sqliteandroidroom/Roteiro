@@ -1,0 +1,13 @@
+
+
+1º SQLite
+    *DataBaseHandler
+    *Init DataBase
+
+2º Android Room
+    *Banco de dados
+    *Objeto
+    *ObjetoDAO
+    *Service
+    *ViewModel
+    *Activity
