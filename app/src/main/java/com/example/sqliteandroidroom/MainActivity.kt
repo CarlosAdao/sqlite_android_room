@@ -6,23 +6,18 @@ import android.util.Log
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var dataBaseHandler: DataBaseHandler
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        dataBaseHandler = DataBaseHandler(this)
-
-        val listGasto = dataBaseHandler.getAllGastos()
-        listGasto.forEach {
+        val dataBaseHandler: DataBaseHandler = DataBaseHandler(this)
+        val res = dataBaseHandler.getAllGastos()
+        res.forEach {
             Log.i("MainActivity", it.toString())
         }
 
-//        val gasto = Gasto(3, "Comida", 10.0)
-//        val res = dataBaseHandler.addGasto(gasto)
-
-//
+//        val res = dataBaseHandler.addGastoDataBase(Gasto(nome = "Comida", valor = 10.0))
+//        Log.i("MainActivity", res.toString())
 
     }
 }
