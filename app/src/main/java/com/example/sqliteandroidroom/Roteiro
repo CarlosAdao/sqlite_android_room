@@ -1,11 +1,11 @@
 1º SQLite
-    *DataBaseHandler
-    *Init DataBase
+    *DataBaseHandler ok
+    *Init DataBase ok
 
 2º Android Room
-    *Banco de dados
-    *Objeto
-    *ObjetoDAO
-    *Service
-    *ViewModel
+    *Banco de dados ok
+    *Objeto ok
+    *ObjetoDAO ok
+    *Service ok
+    *ViewModel ok
     *Activity
